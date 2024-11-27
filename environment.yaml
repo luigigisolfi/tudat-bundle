@@ -1,8 +1,9 @@
-name: tudat-bundle
+name: tudat-bundle_spiceypy
 channels:
   - conda-forge
   - tudat-team
 dependencies:
+  - spiceypy
   - eigen
   - boost-cpp=1.78.0
   - tudat-resources
@@ -37,4 +38,4 @@ dependencies:
      - sphinxcontrib-fulltoc
      - sphinxcontrib-bibtex
      - furo
-     - sphinx_copybutton 
+     - sphinx_copybutton
