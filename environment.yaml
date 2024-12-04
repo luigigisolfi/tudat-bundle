@@ -1,4 +1,4 @@
-name: tudat-bundle_spiceypy
+name: tudat-bundle
 channels:
   - conda-forge
   - tudat-team
